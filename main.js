@@ -9,8 +9,8 @@ var typed = new Typed(".text", {
 document.getElementById("resumeLink").addEventListener("click", (event) => {
     event.preventDefault(); // Prevent default anchor behavior
 
-    const fileUrl = "https://drive.google.com/file/d/10J7Veyp49kvnGG3P4mrB-GVpdUJsCuS9/view?usp=sharing";
-    const fileId = "10J7Veyp49kvnGG3P4mrB-GVpdUJsCuS9";
+    const fileUrl = "https://drive.google.com/file/d/1ahC4t05L4DhSL1G47gILOdbxXckanC0s/view?usp=sharing";
+    const fileId = "1ahC4t05L4DhSL1G47gILOdbxXckanC0s";
     const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
 
     // Open the resume in a new tab
@@ -24,7 +24,7 @@ document.getElementById("resumeLink").addEventListener("click", (event) => {
 
 document.addEventListener("DOMContentLoaded", function () {
     const hamburger = document.getElementById("hamburger");
-    const navbar = document.querySelector(".navbar");
+    const navbar = document.querySelector("navbar");
   
     hamburger.addEventListener("click", function () {
       navbar.classList.toggle("active");
