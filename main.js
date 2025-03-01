@@ -9,8 +9,8 @@ var typed = new Typed(".text", {
 document.getElementById("resumeLink").addEventListener("click", (event) => {
     event.preventDefault(); // Prevent default anchor behavior
 
-    const fileUrl = "https://drive.google.com/file/d/1ahC4t05L4DhSL1G47gILOdbxXckanC0s/view?usp=sharing";
-    const fileId = "1ahC4t05L4DhSL1G47gILOdbxXckanC0s";
+    const fileUrl = "https://drive.google.com/file/d/1UodoDmv_IFRAcT3KcYbwOGhCEI0PPHOj/view?usp=sharing";
+    const fileId = "1UodoDmv_IFRAcT3KcYbwOGhCEI0PPHOj";
     const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
 
     // Open the resume in a new tab
